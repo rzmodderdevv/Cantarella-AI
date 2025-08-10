@@ -1,6 +1,6 @@
 # 💜 Cantarella AI Chatbot  
 
-![Banner]()  ![cantarella-profile](https://github.com/user-attachments/assets/2edd16b2-1abc-4663-8d9e-540e9ebcc0d4)
+![cantarella-profile](https://github.com/user-attachments/assets/2edd16b2-1abc-4663-8d9e-540e9ebcc0d4)
 
 
 > **Cantarella AI** Cantarella AI adalah AI berbasis Gemini, dibuat sebagai partner untuk tugas sehari-hari dan mengobrol dengan santai tanpa formalitas.
