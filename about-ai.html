@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About AI</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top, #421E5D, #020617);
+    color: white;
+    overflow-x: hidden;
+  }
+
+  header {
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    background: linear-gradient(90deg, #fefdfe, #cdbff6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  section {
+    margin: 80px 0;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+
+  section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .card {
+    background: #241034;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .avatar {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    border: 3px solid rgba(255,255,255,0.3);
+  }
+
+  .fade-line {
+    width: 80px;
+    height: 4px;
+    margin: 20px auto;
+    background: linear-gradient(90deg, transparent, #af54f4, transparent);
+    border-radius: 4px;
+  }
+
+  .credit {
+    color: #af54f4;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ABOUT AI CHAT</h1>
+</header>
+
+<div class="container">
+  <section>
+    <div class="card">
+      <img src="cantarella-profile.jpg" alt="AI Avatar" class="avatar">
+      <h2 style="text-align:center;">Cantarella AI</h2>
+      <div class="fade-line"></div>
+      <p style="text-align:center;">Cantarella AI adalah AI berbasis Gemini, dibuat sebagai partner untuk tugas sehari-hari dan mengobrol dengan santai tanpa formalitas.</p>
+    </div>
+  </section>
+  <section>
+    <div class="card">
+      <h2>⚡ Fitur Unggulan</h2>
+      <ul>
+        <li>Memakai bahasa yang santai, namum bisa formal saat dibutuhkan</li>
+        <li>Memberikan jawaban berbasis data dan logika</li>
+        <li>Desain interaksi ramah, simple & futuristik</li>
+        <li>Efek visual modern untuk pengalaman menarik</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <h2>Thanks To</h2>
+      <ul>
+      <li>Tuhan YME</li>
+        <li>Rezz.DVS</li><a href="#" class="credit">(RZ MODDER DEV)</a>
+        <li>Gemini AI</li>
+        <li>All Of You</li>
+        </ul>
+    </div>
+  </section>
+</div>
+
+<script>
+  // Efek Fade-in saat scroll
+  const sections = document.querySelectorAll("section");
+  const fadeInOnScroll = () => {
+    sections.forEach(sec => {
+      const rect = sec.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 100) {
+        sec.classList.add("show");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", fadeInOnScroll);
+  window.addEventListener("load", fadeInOnScroll);
+</script>
+
+</body>
+</html>
