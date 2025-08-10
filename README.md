@@ -24,4 +24,4 @@
 ---
 
 ## Coba Sekarang
-``` https://rzmodderdevv.github.io/Cantarella-AI/ ```
+https://rzmodderdevv.github.io/Cantarella-AI/
