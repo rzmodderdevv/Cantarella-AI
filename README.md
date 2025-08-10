@@ -18,7 +18,7 @@
 
 ## 🖼 Preview UI
 
-![UI Preview](<img width="1917" height="987" alt="Cuplikan layar 2025-08-10 215327" src="https://github.com/user-attachments/assets/15fb1c76-f3e8-4cea-955d-896f9d0bafb7" />
+![UI Preview](https://github.com/user-attachments/assets/15fb1c76-f3e8-4cea-955d-896f9d0bafb7
 )
 
 ---
