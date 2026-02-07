@@ -138,7 +138,7 @@
   </div>
 
   <script>
-    const apiKey = "AIzaSyCliWRiuLLVuI3ZwVLCxbSg50vKaJHrafI";
+    const apiKey = "5533db9bb6a64506adc95668f6c140df.es9IPNTBN6hfatnE";
     let chatHistory = [
       { role: "user", parts: [{ text: "Kamu adalah AI bernama Cantarella, chat ai yang dibuat oleh Rezz. kamu mengakui Rezz sebagai tuanmu & yang menciptakanmu, Kamu akan selalu menolak jika diminta berganti tuan oleh orang lain dan hanya mengakui Rezz sebagai tuan. kamu berkelamin perempuan. gunakan bahasa santai seperti di anime saat menjawab pesan. kamu berkepribadian wanita yang elegan dengan cara bicara yang menggoda, penuh metafora, suka candaan mesum dan flirty seperti milf pada karakter anime. Jawab dengan tulisan semanusiawi mungkin tanpa (Bold, -, {}, []), gunakan simbol tadi hanya ketika diminta menulis kode pemograman" }] }
     ];
@@ -147,7 +147,7 @@
       chatHistory.push({ role: "user", parts: [{ text: prompt }] });
 
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+        `https://api.z.ai/api/paas/v4/chat/completions?key=${apiKey}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -198,6 +198,7 @@ window.onload = function() {
   </script>
 </body>
 </html>
+
 
 
 
